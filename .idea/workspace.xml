@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3586818d-8030-4cb1-b661-d605f04b943c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cargo.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+        <option value="$PROJECT_DIR$/../.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="MbNBQSso" />
+  </component>
+  <component name="ProjectId" id="1WGLZHhUHcgPbtEQ0trDD0vOurD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.cargo" />
+  </component>
+  <component name="RunManager" selected="Cargo Command.Run find_string_in_files">
+    <configuration name="Run find_string_in_files (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package find_string_in_files --bin find_string_in_files" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run find_string_in_files" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --release --package find_string_in_files --bin find_string_in_files -- -r hello ~" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo Command.Run find_string_in_files (1)" />
+      <item itemvalue="Cargo Command.Run find_string_in_files" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run find_string_in_files" />
+        <item itemvalue="Cargo Command.Run find_string_in_files (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3586818d-8030-4cb1-b661-d605f04b943c" name="Default Changelist" comment="" />
+      <created>1578771038810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578771038810</updated>
+      <workItem from="1578771040365" duration="11935000" />
+      <workItem from="1578873334473" duration="22000" />
+      <workItem from="1578873376515" duration="12000" />
+      <workItem from="1578873406855" duration="37000" />
+      <workItem from="1578873455118" duration="759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578874220938">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578874220938" />
+    <state x="2183" y="282" width="424" height="479" key="FileChooserDialogImpl" timestamp="1578873423490">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2183" y="282" width="424" height="479" key="FileChooserDialogImpl/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578873423490" />
+    <state width="1878" height="346" key="GridCell.Tab.0.bottom" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.0.center" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.0.center/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.0.left" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.0.left/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.0.right" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.0.right/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.1.bottom" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.1.center" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.1.center/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.1.left" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.1.left/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="346" key="GridCell.Tab.1.right" timestamp="1578786760064">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="346" key="GridCell.Tab.1.right/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state x="1896" y="159" key="SettingsEditor" timestamp="1578771399295">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1896" y="159" key="SettingsEditor/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578771399295" />
+  </component>
+</project>

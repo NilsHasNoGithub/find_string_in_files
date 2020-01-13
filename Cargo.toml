@@ -1,0 +1,14 @@
+[package]
+name = "find-string-in-files"
+version = "0.1.0"
+authors = ["NilsHasNoGithub <niolopa@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.1"
+clap = "2.33.0"
+think_thank_rust = { git = "https://github.com/NilsHasNoGithub/ThinkThankRust"}
+num_cpus = "1.11.1"
+shellexpand = "1.1.1"
