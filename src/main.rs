@@ -52,9 +52,10 @@ fn main() {
     let thread_count: Arc<Mutex<usize>> = Arc::new(Mutex::new(1));
     let collected = Arc::new(Mutex::new(Vec::new()));
     let match_case = matches.is_present("match-case");
-    let mut query = matches.value_of("query").unwrap().to_string();
+    static mut QUERY: String = String::new();
+    unsafe { QUERY = matches.value_of("query").unwrap().to_string(); }
     if !match_case {
-        query = query.to_ascii_lowercase();
+        unsafe { QUERY = QUERY.to_ascii_lowercase(); }
     }
     if let Ok(num) = matches.value_of("jobs").unwrap().parse() {
         num_cpus = num;
@@ -63,15 +64,17 @@ fn main() {
         return;
     }
     let (sender, receiver) = mpsc::channel();
-    search(search_dir,
-           query,
-           match_case,
-           matches.is_present("recursive"),
-           collected.clone(),
-           thread_count.clone(),
-           num_cpus,
-           sender,
-           0);
+    unsafe {
+        search(search_dir,
+               &QUERY,
+               match_case,
+               matches.is_present("recursive"),
+               collected.clone(),
+               thread_count.clone(),
+               num_cpus,
+               sender,
+               0);
+    }
     while *thread_count.lock().unwrap() > 1 {
         receiver.recv().unwrap();
     }
@@ -84,7 +87,7 @@ fn main() {
 
 fn search(
     path: &Path,
-    query: String,
+    query: &'static str,
     match_case: bool,
     recursive: bool,
     collected: Arc<Mutex<Vec<String>>>,
@@ -111,24 +114,23 @@ fn search(
                 c.deref_mut().push(path.to_str().unwrap().to_string())
             }
         }
-    } else if (recursive || depth == 0) && path.is_dir() {
+    } else if (recursive || depth == 0) & &path.is_dir() {
         if let Ok(entries) = fs::read_dir(path) {
             for entry in entries {
                 if let Ok(entry) = entry {
                     let new_path = entry.path();
-                    let query_clone = query.clone();
                     let col_clone = collected.clone();
                     let tc_clone = thread_count.clone();
                     let tsn = thread_stop_notifier.clone();
                     if *thread_count.lock().unwrap() < max_threads {
                         *thread_count.lock().unwrap() += 1;
                         thread::spawn(move || {
-                            search(&new_path, query_clone, match_case, recursive, col_clone, tc_clone.clone(), max_threads, tsn.clone(), depth + 1);
+                            search(&new_path, query, match_case, recursive, col_clone, tc_clone.clone(), max_threads, tsn.clone(), depth + 1);
                             *tc_clone.lock().unwrap() -= 1;
                             tsn.send(()).unwrap();
                         });
                     } else {
-                        search(&new_path, query_clone, match_case, recursive, col_clone, tc_clone, max_threads, tsn, depth + 1);
+                        search(&new_path, query, match_case, recursive, col_clone, tc_clone, max_threads, tsn, depth + 1);
                     }
                 }
             }

@@ -13,7 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3586818d-8030-4cb1-b661-d605f04b943c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
     </configuration>
     <configuration name="Run find_string_in_files" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --release --package find_string_in_files --bin find_string_in_files -- -r hello ~" />
+      <option name="command" value="run --release --package find-string-in-files --bin find-string-in-files -- -r hello" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -132,6 +135,8 @@
       <workItem from="1578873376515" duration="12000" />
       <workItem from="1578873406855" duration="37000" />
       <workItem from="1578873455118" duration="759000" />
+      <workItem from="1578952549767" duration="859000" />
+      <workItem from="1578954485018" duration="14000" />
     </task>
     <servers />
   </component>
@@ -142,30 +147,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578874220938">
+    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578953228813">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578874220938" />
+    <state x="1858" y="182" width="1413" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953228813" />
+    <state x="2098" y="330" width="594" height="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578953313765">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2098" y="330" width="594" height="382" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953313765" />
     <state x="2183" y="282" width="424" height="479" key="FileChooserDialogImpl" timestamp="1578873423490">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2183" y="282" width="424" height="479" key="FileChooserDialogImpl/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578873423490" />
-    <state width="1878" height="346" key="GridCell.Tab.0.bottom" timestamp="1578786760064">
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1578953407663">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="346" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
-    <state width="1878" height="346" key="GridCell.Tab.0.center" timestamp="1578786760064">
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953407663" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1578953407663">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="346" key="GridCell.Tab.0.center/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
-    <state width="1878" height="346" key="GridCell.Tab.0.left" timestamp="1578786760064">
+    <state width="1878" height="280" key="GridCell.Tab.0.center/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953407663" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1578953407663">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="346" key="GridCell.Tab.0.left/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
-    <state width="1878" height="346" key="GridCell.Tab.0.right" timestamp="1578786760064">
+    <state width="1878" height="280" key="GridCell.Tab.0.left/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953407663" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1578953407663">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="346" key="GridCell.Tab.0.right/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578786760064" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578953407663" />
     <state width="1878" height="346" key="GridCell.Tab.1.bottom" timestamp="1578786760064">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -186,5 +195,9 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1896" y="159" key="SettingsEditor/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578771399295" />
+    <state x="2063" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1578952657247">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2063" y="230" width="672" height="678" key="search.everywhere.popup/1440.0.1920.1080/0.180.1440.900@1440.0.1920.1080" timestamp="1578952657247" />
   </component>
 </project>
